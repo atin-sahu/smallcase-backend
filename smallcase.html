@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="container">
+
+    </div>
+    
+</body>
+</html>
+<script>
+    async function getitem(){
+    
+    try{
+     
+       let res=await fetch(`localhost:5000/smallcase`)
+       let data=await res.json()
+     
+       console.log(data)
+        again(data)
+        
+        
+    }
+ 
+    catch(err){
+  
+  console.log(err)
+    }
+   }
+   getitem()
+
+    
+function again(d){
+   // document.querySelector("#pakdo").innerHTML=""
+console.log(d)
+d.forEach(function(el,index){
+ console.log("el"+el)
+
+// var div=document.createElement("div")
+// var img=document.createElement("img")
+// img.setAttribute("src",el.Image)
+
+// var title=document.createElement("h2")
+// title.textContent=el.title
+
+// var name=document.createElement("p")
+// name.textContent=el.name
+
+// var percent=document.createElement("p")
+// percent.textContent=el.percent
+
+// var description=document.createElement("h3")
+// description.textContent=el.description
+
+// var amount=document.createElement("h3")
+// amount.textContent=el.amount
+
+// div.append(img,title,name,percent,description,amount)
+
+// document.querySelector("#container").append(div)
+
+})
+   }
+
+</script>
