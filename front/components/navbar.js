@@ -1,7 +1,7 @@
 function navbar(){
     return `<nav class="navbar navbar-expand-lg navbar-light mb-0 pb-0 fixed-top bg-white border-bottom">
     <div class="container">
-      <a class="navbar-brand text-primary" href="#">
+      <a class="navbar-brand text-primary" href="index.html">
         <div class="d-flex mt-2">
           <img style="width: 100%; height: 40px;" src="https://smallcases.upstox.com/assets/favicon/ms-icon-310x310.png"
             alt="logo">
@@ -27,7 +27,7 @@ function navbar(){
         <div>
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" href="#">For Business</a>
+              <a class="nav-link" href="for_business.html">For Business</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
