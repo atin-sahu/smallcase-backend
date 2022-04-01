@@ -1,0 +1,261 @@
+[{
+  "_id": {
+    "$oid": "624311c13e621a26d81c71bd"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/SCMO_0014.png",
+  "title": "Dividend Aristocrats",
+  "name": "by Windmill Capital",
+  "amount": 40000,
+  "percent": "CAGR:- 20.70%",
+  "description": "Companies that hvae been consistently increasing dividends.Extra goodness",
+  "createdAt": {
+    "$date": "2022-03-29T14:03:45.713Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:03:45.713Z"
+  }
+},{
+  "_id": {
+    "$oid": "624312243e621a26d81c71bf"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/SCMO_0013.png",
+  "title": "Dividend Stars",
+  "name": "by Windmill Capital",
+  "amount": 30000,
+  "percent": "CAGR:- 22.10%",
+  "description": "High dividend yeild compaines with a track record of not cutting dividends",
+  "createdAt": {
+    "$date": "2022-03-29T14:05:24.308Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:05:24.308Z"
+  }
+},{
+  "_id": {
+    "$oid": "6243127a3e621a26d81c71c1"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/SCMO_0026.png",
+  "title": "Growth & Income",
+  "name": "by Windmill Capital",
+  "amount": 27000,
+  "percent": "CAGR:- 20.11%",
+  "description": "Efficicntly managed dividend paying companies screened using Kevin Matras' criteria",
+  "createdAt": {
+    "$date": "2022-03-29T14:06:50.202Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:06:50.202Z"
+  }
+},{
+  "_id": {
+    "$oid": "624312d43e621a26d81c71c3"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/LTDMO_0001.png",
+  "title": "Listed Venture Capital",
+  "name": "by Windmill Capital",
+  "amount": 27400,
+  "percent": "CAGR:- 56.79%",
+  "description": "Venture Capital style investments into small listed companies with quality governance board & quality..",
+  "createdAt": {
+    "$date": "2022-03-29T14:08:20.298Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:08:20.298Z"
+  }
+},{
+  "_id": {
+    "$oid": "624313553e621a26d81c71c5"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/GPRMO_0004.png",
+  "title": "High Dividend Yield",
+  "name": "by Windmill Capital",
+  "amount": 41000,
+  "percent": "CAGR:- 60.81%",
+  "description": "Invest in High Dividend Yield and Growth Stocks",
+  "createdAt": {
+    "$date": "2022-03-29T14:10:29.912Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:10:29.912Z"
+  }
+},{
+  "_id": {
+    "$oid": "624313c23e621a26d81c71c7"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/AEIMO_0003.png",
+  "title": "Ommi Super Dividend",
+  "name": "by Windmill Capital",
+  "amount": 10000,
+  "percent": "CAGR:- 4.17%",
+  "description": "A portfolio of SuperNormal companies with SuperNormal Dividend Yield",
+  "createdAt": {
+    "$date": "2022-03-29T14:12:18.538Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:12:18.538Z"
+  }
+},{
+  "_id": {
+    "$oid": "624314163e621a26d81c71c9"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/OMNMO_0005.png",
+  "title": "All IN 1",
+  "name": "by Windmill Capital",
+  "amount": 76000,
+  "percent": "CAGR:- 32.70%",
+  "description": "Low cost flexible mandate portfolio to survive market ups & downs while delivering alpha",
+  "createdAt": {
+    "$date": "2022-03-29T14:13:42.452Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:13:42.452Z"
+  }
+},{
+  "_id": {
+    "$oid": "6243148a3e621a26d81c71cb"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/TEQNM_0001.png",
+  "title": "Handipicked PSU Gems",
+  "name": "by Windmill Capital",
+  "amount": 49000,
+  "percent": "CAGR:- 21.52%",
+  "description": "Dominant, highly profitable and deeply undervalued PSUs",
+  "createdAt": {
+    "$date": "2022-03-29T14:15:38.997Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:15:38.997Z"
+  }
+},{
+  "_id": {
+    "$oid": "624314df3e621a26d81c71cd"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/KAIMO_0001.png",
+  "title": "The Rising Superstars",
+  "name": "by Windmill Capital",
+  "amount": 37000,
+  "percent": "CAGR:- 33.30%",
+  "description": "Multicap portfolio comprising of mid and small caps that are likely to graduate into largecaps",
+  "createdAt": {
+    "$date": "2022-03-29T14:17:03.553Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:17:03.553Z"
+  }
+},{
+  "_id": {
+    "$oid": "624315313e621a26d81c71cf"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/EHAMO_0003.png",
+  "title": "Kairos Compounders",
+  "name": "by Windmill Capital",
+  "amount": 60000,
+  "percent": "CAGR:- 28.72%",
+  "description": "An actively managed equity portfolio designed for patient investors with a time horizon of 10+ years",
+  "createdAt": {
+    "$date": "2022-03-29T14:18:25.519Z"
+  },
+  "updatedAt": {
+    "$date": "2022-03-29T14:18:25.519Z"
+  }
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5b9"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/SCSB_0004.png",
+  "title": "Quality - Smart Beta",
+  "name": "by Windmill Capital",
+  "amount": 82452,
+  "percent": "CAGR:- 13.55%",
+  "description": "Established companies that have stood the test of time. Timeless classics"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5ba"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/SCTR_0011.png",
+  "title": "Insurance Tracker",
+  "name": "by Windmill Capital",
+  "amount": 4800,
+  "percent": "CAGR:- 0.90%",
+  "description": "Companies to efficiently track and invest in the insurance sector"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5bb"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/CMMO_0001.png",
+  "title": "Capitalmind Moment...",
+  "name": "by Capitalmind",
+  "amount": 64054,
+  "percent": "CAGR:- 48.20%",
+  "description": "Up to 25 stocks selected based on sharpe ratios and liquidity. Maximum investable up to 20L."
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5bc"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/SCNM_0025.png",
+  "title": "Electric Mobility",
+  "name": "by Windmill Capital",
+  "amount": 92974,
+  "percent": "CAGR:- 4.57%",
+  "description": "Companies driving India's transition to electric vehicles. Transport's new era"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5bd"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/MWMO_0002.png",
+  "title": "MWM (MysticWealth Momentum)",
+  "name": "by Mystic Wealth",
+  "amount": 51561,
+  "percent": "CAGR:- 73.58%",
+  "description": "An Automated Momentum Model Portfolio of 20 stocks. Recommended size (2-20 lakhs)"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5be"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/160/SCMO_0015.png",
+  "title": "Safe Haven",
+  "name": "by Windmill Capital",
+  "amount": 29188,
+  "percent": "CAGR:- 17.85%",
+  "description": "Low beta stocks that are rated ‘BUY’, to help protect against market volatility"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5bf"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/160/LTDMO_0001.png",
+  "title": "Listed Venture Capital",
+  "name": "by Lotusdew Wealth",
+  "amount": 37070,
+  "percent": "CAGR:- 58.69%",
+  "description": "Venture Capital style investments into small listed companies with quality governance board & quality earnings poised to grow"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5c0"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/200/AURMO_0001.png",
+  "title": "Cyclical Bets Portfolio",
+  "name": "by Aurum",
+  "amount": 23033,
+  "percent": "CAGR:- 63.71%",
+  "description": "This smallcase focusses on cyclical sectors which have staged a turnaround and expected to do well."
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5c1"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/160/SCET_0021.png",
+  "title": "Horizon 2055",
+  "name": "by Windmill Capital",
+  "amount": 8743,
+  "percent": "CAGR:- 14.14%",
+  "description": "Optimizes investment value for goals to be achieved in 2055"
+},{
+  "_id": {
+    "$oid": "624713bf5e9a3850644be5c2"
+  },
+  "Image": "https://assets.smallcase.com/images/smallcases/160/SCET_0020.png",
+  "title": "Horizon 2050",
+  "name": "by Windmill Capital",
+  "amount": 5000,
+  "percent": "CAGR:- 13.07%",
+  "description": "Optimizes investment value for goals to be achieved in 2050"
+}]
