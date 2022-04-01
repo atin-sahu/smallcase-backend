@@ -2,9 +2,13 @@ const express = require("express");
 const app = express();
 
 const {register,login, generateToken} = require("./controllers/auth_controller");
+const smallcasecontroller= require("./controllers/smallcasecont")
 
 const passport = require("./configs/google-oauth")
 const cors = require("cors");
+
+
+
 
 app.use(function (req, res, next) {
   res.header("Access-Control-Allow-Headers", "*");
@@ -17,6 +21,8 @@ app.use(cors());
 app.post("/register", register)
 
 app.post("/login", login)
+
+app.use("/smallcase",smallcasecontroller)
 
 app.get('/auth/google',
   passport.authenticate('google', { scope: ['profile', 'email'] }));
