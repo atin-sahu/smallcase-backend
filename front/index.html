@@ -14,8 +14,8 @@
   <link rel="stylesheet" href="style/smallcase.css">
 </head>
 <body>
+  
   <div id="navbar_div"></div>
-  <div id="register_div"></div>
   <div id="login_div"></div>
 
   <div style="width: 100%; margin-top: 5vh;">
@@ -25,8 +25,9 @@
   <div id="container2">
     <div id="b1">
       <div id="b11">
-        <b>A smallcase is a basket of <br />
+        <b>Register</button>A smallcase is a basket of <br />
           that reflects an idea</b>
+          
       </div>
       <div id="b12">
         smallcases are portfolios of stocks or ETFs, weighted
@@ -491,25 +492,14 @@
 </html>
 <script type="module">
 
-  // for popover-----------
-  var popoverTriggerList = [].slice.call(document.querySelectorAll('[data-bs-toggle="popover"]'))
-  var popoverList = popoverTriggerList.map(function (popoverTriggerEl) {
-    return new bootstrap.Popover(popoverTriggerEl)
-  })
-  // end of popover----------------
-
-  import { navbar, footer, login, register} from "./components/navbar.js";
+  import { navbar, footer} from "./components/navbar.js";
 
   let navbar_div = document.getElementById("navbar_div");
   let footer_div = document.getElementById("footer_div");
-  let register_div = document.getElementById("register_div");
-  let login_div = document.getElementById("login_div");
 
   navbar_div.innerHTML = navbar();
-  register_div.innerHTML = register();
-  login_div.innerHTML = login();
   footer_div.innerHTML = footer();
-
+ 
   let id;
   var count = 0;
   id = setInterval(function () {
