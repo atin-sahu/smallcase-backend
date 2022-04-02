@@ -63,21 +63,21 @@
 
 
                     <div id="price_fillter">
-                        <h6 style="margin-bottom: 5px;  color: rgba(0, 0, 0, 0.685) ;">Investment Amount</h6>
-                        <input type="checkbox" class="checkbox1" name="check1">
-                        <label for="check1">Any</label><br>
-                        <input type="checkbox" class="checkbox1" name="check1">
-                        <label for="check1">Under ₹ 5,000</label><br>
-                        <input type="checkbox" class="checkbox1" name="check1">
-                        <label for="check1">Under ₹ 25,000</label><br>
-                        <input type="checkbox" class="checkbox1" name="check1">
-                        <label for="check1">Under ₹ 50,000</label><br>
+                        <h6 style="margin-bottom: 5px;  color: rgba(0, 0, 0, 0.685) ;font-weight: bolder;">Investment Amount</h6>
+                        <!-- <input type="checkbox" class="checkbox1" name="check1" > -->
+                        <!-- <label for="check1">Any</label><br> -->
+                        <input type="checkbox" class="checkbox1"  name=5000 onclick="change()">
+                        <label for="5000">Under ₹ 5,000</label><br>
+                        <input type="checkbox" class="checkbox1"  name=40000 onclick="change()">
+                        <label for=25000>Under ₹ 25,000</label><br>
+                        <input type="checkbox" class="checkbox1"  name=50000 onclick="change()">
+                        <label for="50000">Under ₹ 50,000</label><br>
                     </div>
 
 
 
 
-                    <h6 style="margin-bottom:8px;color: rgba(0, 0, 0, 0.685) ;">Volatility</h6>
+                    <h6 style="margin-bottom:8px;color: rgba(0, 0, 0, 0.685) ;font-weight: bolder">Volatility</h6>
                     <div id="Volatility">
                         <div class="Volatility_box">
                             <i style="color: rgb(10, 158, 59);" class="fa-solid fa-record-vinyl"></i>
@@ -95,13 +95,13 @@
 
 
 
-                    <h6 style="margin-bottom: 8px;color: rgba(0, 0, 0, 0.685) ;">Launch Date</h6>
+                    <h6 style="margin-bottom: 8px;color: rgba(0, 0, 0, 0.685) ;font-weight: bolder;">Launch Date</h6>
                     <input type="checkbox" class="checkbox1" name="check1">
-                    <label for="check1">Include new smallcases</label><br>
+                    <label for="check1" style="margin-bottom: 10px;">Include new smallcases</label><br>
 
 
 
-                    <h6 style="margin-bottom:8px ; color: rgba(0, 0, 0, 0.685) ;">Investment Strategy</h6>
+                    <h6 style="margin-bottom:8px ; color: rgba(0, 0, 0, 0.685) ;font-weight: bolder">Investment Strategy</h6>
 
                     <input type="checkbox" class="checkbox1" name="check1">
                     <label for="check1">Asset Allocation</label><br>
@@ -145,15 +145,13 @@
 
 
 
-            <div id="right_content" style="border: 1px solid black;">
-
-          
-
+            <div id="right_content" >
             </div>
-           
+          
         </div>
     </div>
-
+     <button onclick="show()" class="btnshow">Load more smallcases</button>
+      <div id="more"></div>
     <div id="footer_div"></div>
 
 </body>
@@ -191,6 +189,7 @@ async function getitem(){
      
        console.log(data)
         again(data)
+       
     }   catch(err){
   
        console.log(err)
@@ -200,9 +199,12 @@ async function getitem(){
 
     
 function again(d){
-   // document.querySelector("#pakdo").innerHTML=""
+   document.querySelector("#right_content").innerHTML=""
 console.log(d)
 d.forEach(function(el){
+    // if(el.amount<=5000){
+    //     showdata(el)
+    // }
  console.log("el"+el)
 
 var div=document.createElement("div")
@@ -211,6 +213,9 @@ div.id = "list_div"
 
 var img=document.createElement("img")
 img.setAttribute("src",el.Image)
+img.style.padding = "10px"
+img.style.marginRight = "10px"
+var hr=document.createElement("hr")
 
 var div1=document.createElement("div")
 div1.style.marginRight = "30px"
@@ -224,12 +229,18 @@ name.textContent=el.name
 
 var min_amount=document.createElement("h6")
 min_amount.textContent="Min.Amount: ₹"
+min_amount.style.marginTop = "50px"
+
 var amount=document.createElement("h6")
 amount.textContent=el.amount
+amount.style.marginTop = "50px"
 
-var percent=document.createElement("h6")
+
+var percent=document.createElement("h5")
 percent.textContent=el.percent
 percent.style.marginLeft = "30px"
+percent.style.color="rgb(40, 205, 5)";
+percent.style.marginTop = "50px"
 
 var description=document.createElement("p")
 description.textContent=el.description
@@ -239,12 +250,33 @@ description.textContent=el.description
 div1.append(title,name,description)
 div.append(img,div1,min_amount,amount,percent)
 
-document.querySelector("#right_content").append(div)
+document.querySelector("#right_content").append(div,hr)
 
 })
    }
-   
+var count =0
+   function show(){
+       count++
+       var a = document.querySelector("#right_content")
+       a.style.height="2400px"
+       if(count==2){
+        var a = document.querySelector("#right_content")
+       a.style.height="3420px"
+       }
+   }
+
+// function change(){
+    
+//     var a= document.querySelector(".checkbox1")
+//     function showdata(c){
+// console.log("c",c)
+//   }
+    
 
 
+// again(data)
+  
+//   }
+ 
 
 </script> 
