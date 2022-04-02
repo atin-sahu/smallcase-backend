@@ -19,7 +19,7 @@ function navbar(){
               <a class="nav-link" aria-current="page" href="discover-collection.html">Discover</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">Watchlist</a>
+              <a class="nav-link" href="watch_list.html">Watchlist</a>
             </li>
           </ul>
         </div>
