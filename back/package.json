@@ -1,4 +1,15 @@
 {
+  "name": "back",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server": "nodemon src/server"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
   "dependencies": {
     "bcrypt": "^5.0.1",
     "cors": "^2.8.5",
@@ -9,23 +20,5 @@
     "passport": "^0.5.2",
     "passport-google-oauth20": "^2.0.0",
     "uuid": "^8.3.2"
-  },
-  "name": "smallcase-backend",
-  "version": "1.0.0",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
-    "server": "nodemon src/server"
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/atin-sahu/smallcase-backend.git"
-  },
-  "author": "",
-  "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/atin-sahu/smallcase-backend/issues"
-  },
-  "homepage": "https://github.com/atin-sahu/smallcase-backend#readme",
-  "description": ""
+  }
 }
