@@ -63,7 +63,7 @@
 
             registerData = JSON.stringify(registerData);
 
-            let res = await fetch("http://localhost:5000/register", {
+            let res = await fetch("/register", {
                 method: "POST",
                 body: registerData,
                 headers: {

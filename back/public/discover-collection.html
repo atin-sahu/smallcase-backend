@@ -513,7 +513,7 @@
 <script>
     async function getitem() {
         try {
-            let res = await fetch(`http://localhost:5000/specials`)
+            let res = await fetch(`/specials`)
             let data = await res.json()
             again(data)
         } catch (err) {
@@ -570,7 +570,7 @@
 
     async function getcollection() {
         try {
-            let res = await fetch(`http://localhost:5000/collections`)
+            let res = await fetch(`/collections`)
             let data = await res.json()
             appendCollection(data)
         } catch (err) {

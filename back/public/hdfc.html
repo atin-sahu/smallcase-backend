@@ -104,7 +104,7 @@
             };
             loginData = JSON.stringify(loginData);
 
-            let res = await fetch("http://localhost:5000/login",
+            let res = await fetch("/login",
                 {
                     method: "POST",
                     body: loginData,
