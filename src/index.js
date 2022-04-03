@@ -11,7 +11,7 @@ app.use(function (req, res, next) {
 app.use(express.json());
 app.use(cors());
 
-// const {register,login, generateToken} = require("./controllers/auth_controller");
+const {register,login, generateToken} = require("./controllers/auth_controller");
 const smallcasecontroller= require("./controllers/smallcasecont")
 const special_controller = require("./controllers/special_controller");
 const collection_Controller = require("./controllers/all_collection_controller");
@@ -48,16 +48,16 @@ app.use("/smallcase",smallcasecontroller)
 app.use("/specials", special_controller)
 app.use("/collections", collection_Controller);
 
-// app.get('/auth/google',
-//   passport.authenticate('google', { scope: ['profile', 'email'] }));
+app.get('/auth/google',
+  passport.authenticate('google', { scope: ['profile', 'email'] }));
  
-// app.get('/auth/google/callback', 
-//   passport.authenticate('google', { failureRedirect: '/login', session:false } ),
+app.get('/auth/google/callback', 
+  passport.authenticate('google', { failureRedirect: '/login', session:false } ),
 
-//   function(req, res) {
-//     const token = generateToken(req.user)
-//     return res.status(200).send({user:req.user, token})
-//   }
-// )
+  function(req, res) {
+    const token = generateToken(req.user)
+    return res.status(200).send({user:req.user, token})
+  }
+)
 
 module.exports = app;
