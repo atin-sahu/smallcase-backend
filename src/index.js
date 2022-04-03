@@ -1,4 +1,5 @@
 const express = require("express");
+const cors = require("cors");
 const path = require("path");
 const app = express();
 
@@ -16,7 +17,6 @@ const special_controller = require("./controllers/special_controller");
 const collection_Controller = require("./controllers/all_collection_controller");
 
 const passport = require("./configs/google-oauth")
-const cors = require("cors");
 
 
 
