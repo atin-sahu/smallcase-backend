@@ -55,3 +55,8 @@ Medium blog link--  https://medium.com/@riyazahmad.online/smallcase-website-clon
 If you have any feedback, please reach out to us at jayshiv7171@gmail.com
 
 
+## Screenshots
+![Screenshot (214)](https://user-images.githubusercontent.com/97458162/165894387-546ff0e5-5a4b-40e6-b191-7e1b85e26c6f.png)
+
+
+![Screenshot (213)](https://user-images.githubusercontent.com/97458162/165894419-2ffe3983-7365-48aa-bc9e-916dd0c73f7c.png)
